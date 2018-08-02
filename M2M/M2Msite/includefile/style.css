@@ -1,0 +1,193 @@
+<style type="text/css">
+{
+	src:url(assets/font.otf);
+	font-family: myfont;
+}
+#uni
+{
+	position: absolute;
+	width: 100%;
+	min-height: 100%;
+	left: 0px;
+	top:0px;
+	font-family: myfont;		
+}
+#header
+{
+	width: 100%;
+	padding: 3%;
+	font-size: 60px;
+	color:white;		
+	background: #1C4A6B;
+}
+#menubar
+{
+	width: 100%;
+	background: orange;
+}
+#menubar a
+{
+	font-size: 24px;
+	color:white;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	display: inline-block;
+}
+#menubar a:hover
+{
+	color: #727272;
+	background: white;
+}
+#footer
+{
+	width: 100%;
+	padding: 3%;
+	color:white;
+	background: #555533;
+	font-size: 24px;
+}
+#content
+{
+	width: 100%;
+	padding: 2%;
+	font-size: 20px;
+
+}
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f1f1f1;	
+	font-family: Arial;	
+}
+
+/* Center website */
+.main {
+	max-width: 100%;
+	margin: auto;
+}
+
+h1 {
+	font-size: 50px;
+	word-break: break-all;
+}
+
+.row {
+	margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+	padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+	float: left;
+	width: 25%;
+}
+
+/* Clear floats after rows */ 
+.row:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+/* Content */
+.content {
+	background-color: white;
+	padding: 10px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 900px) {
+	.column {
+		width: 50%;
+	}
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+	.column {
+		width: 100%;
+	}
+}
+* {margin:0; padding:0 ;}
+a {text-decoration: none; color:#333;}
+#board_area {margin-top:50px;}
+.list-table thead th{ height:40px; border-top:2px solid #09C; border-bottom:1px solid #CCC; font:bold 17px 'malgun gothic';  }
+.list-table tbody td{ text-align:center; padding:10px 0; border-bottom:1px solid #CCC; height:20px; font: 14px 'malgun gothic';}
+
+.button {	width:100px;	background-color: #f8585b;	border: none;	border-radius: 10px;	color:#fff;	padding: 15px 0;	text-align: center;	text-decoration: none;	display: inline-block;	font-size: 15px;	margin: 4px;	cursor: pointer;}
+.button:hover {    background-color: blue;}
+.main-wrapper{
+	margin: 0 auto;
+	width: 100%;
+}
+header nav{
+	width: 100%;
+	height: 60px;
+	background-color: #fff;
+}
+header nav ul{
+	float: left;
+}
+header nav ul li{
+	float: left;
+	list-style: none;
+}
+header nav ul a{
+	font-family: arial;
+	font-size: 16px;
+	color: #111;
+	line-height: 63px;
+}
+header .nav-login form{
+	float :left;
+	padding-top: 15px;
+}
+header .nav-login input{
+	float :left;
+	width: 140px;
+	height: 30px;
+	padding: 0px; 10px;
+	margin-right: 10px;
+	border: none;
+	background-color: #CCC;
+	font-family: arial;
+	font-size: 14px;
+	color: #111;
+	line-height: 30px;
+}
+header .nav-login button{
+	float :left;
+	width: 60px;
+	height: 30px;	
+	margin-right: 10px;
+	border: none;
+	background-color: #f3f3f3;
+	font-family: arial;
+	font-size: 14px;
+	color: #111;
+	cursor: pointer;	
+}
+header .nav-login form button:hover{
+	background-color: #ccc;
+}
+header .nav-login a{
+	font-family: arial;
+	font-size: 14px;
+	color: #111;
+	float: left;
+	display: block;
+	width: 60px;
+	height: 60px;
+	border: none;
+	line-height: 63px;
+	cursor: pointer;
+
+}
+</style>
